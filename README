@@ -1,0 +1,9 @@
+// This project build on SpringBoot MVC
+
+Request -call-> Controller -call-> Services (Make connection and get response - mapping with Models)
+Services-return response object-> Controller -> Response
+
+
+// Configuration
+api_dev.properties (Secret API key )- Only for local machine and will not push to Production and Test.
+application.properties - Contains default configuration
